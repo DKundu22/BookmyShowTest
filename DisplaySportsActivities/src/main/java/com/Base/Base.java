@@ -46,7 +46,7 @@ public class Base {
 		}
 		if (prop.getProperty("browserName").matches("edge")) {
 			System.setProperty("webdriver.edge.driver", "src\\test\\resources\\msedgedriver.exe");
-			driver = new EdgeDriver(); // Initializing the new firefox driver
+			driver = new EdgeDriver(); // Initializing the new Edge driver
 		}
 		driver.manage().window().maximize(); // To maximize the window
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS); // Waiting time to page the load completely

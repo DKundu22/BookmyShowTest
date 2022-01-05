@@ -11,6 +11,7 @@ import com.aventstack.extentreports.Status;
 import com.Base.Base;
 
 public class FIndSports extends Base{
+	//POM for finding sports 
 	By cancel=By.id("wzrk-cancel");
 	By city=By.xpath("//span[text()='Kolkata']");
 	By sport=By.xpath("//a[text()='Sports']");
@@ -20,21 +21,25 @@ public class FIndSports extends Base{
     By priceSelection= By.xpath("(//div[normalize-space()='Price'])[1]");
 	By zeroToFivehundred = By.xpath("(//div[contains(text(),'0 - 500')])[2]");
 	
+	// finding sports for coming weekend 
     @Test(priority =2)
 	public void sports() throws InterruptedException {
 		exttest = report.createTest("Display sports activities. ");
-		wait(30, cancel);
-		driver.findElement(cancel).click();
+		wait(30, cancel); // webdriver wait 
+		driver.findElement(cancel).click(); 
 		driver.findElement(city).click();
 		driver.findElement(sport).click();
 		wait(30, weekend);
+		//for selecting This weekend option
 		driver.findElement(weekend).click();
 		exttest.log(Status.PASS, "Weekend selected Successfully");
 		wait(30, priceSelection);
+		//selecting price 0-500
 		driver.findElement(priceSelection).click();
 		wait(30, zeroToFivehundred);
 		driver.findElement(zeroToFivehundred).click();
 		exttest.log(Status.PASS, "Zero to five hundred selected successfully");
+		//List all the sports available for this weekend and price between 0-500
 		List<WebElement> names=driver.findElements(name);
 		List<WebElement> prices=driver.findElements(price);
 		for(int j=0;j<names.size();++j){

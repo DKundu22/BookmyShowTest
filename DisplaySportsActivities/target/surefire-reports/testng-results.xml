@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="4" total="10" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Display all Sports activities available in your city" duration-ms="30030" started-at="2022-01-05T09:25:18Z" finished-at="2022-01-05T09:25:49Z">
+  <suite name="Display all Sports activities available in your city" duration-ms="32891" started-at="2022-01-05T14:58:24Z" finished-at="2022-01-05T14:58:57Z">
     <groups>
     </groups>
-    <test name="FunctionalTesting" duration-ms="30030" started-at="2022-01-05T09:25:18Z" finished-at="2022-01-05T09:25:49Z">
+    <test name="RegressionTesting" duration-ms="32891" started-at="2022-01-05T14:58:24Z" finished-at="2022-01-05T14:58:57Z">
       <class name="com.Bookmyshow.Pages.SignIn">
-        <test-method status="PASS" signature="openUrl()[pri:1, instance:com.Bookmyshow.Pages.SignIn@23529fee]" name="openUrl" duration-ms="1696" started-at="2022-01-05T09:25:23Z" finished-at="2022-01-05T09:25:25Z">
+        <test-method status="PASS" signature="openUrl()[pri:1, instance:com.Bookmyshow.Pages.SignIn@23529fee]" name="openUrl" duration-ms="1788" started-at="2022-01-05T14:58:29Z" finished-at="2022-01-05T14:58:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method status="PASS" signature="signin()[pri:4, instance:com.Bookmyshow.Pages.SignIn@23529fee]" name="signin" duration-ms="8464" started-at="2022-01-05T09:25:40Z" finished-at="2022-01-05T09:25:49Z">
+        <test-method status="PASS" signature="signin()[pri:4, instance:com.Bookmyshow.Pages.SignIn@23529fee]" name="signin" duration-ms="11014" started-at="2022-01-05T14:58:46Z" finished-at="2022-01-05T14:58:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
       </class> <!-- com.Bookmyshow.Pages.SignIn -->
       <class name="com.Bookmyshow.Pages.FIndSports">
-        <test-method status="PASS" signature="driverSetup()[pri:0, instance:com.Bookmyshow.Pages.FIndSports@7f1302d6]" name="driverSetup" is-config="true" duration-ms="4612" started-at="2022-01-05T09:25:14Z" finished-at="2022-01-05T09:25:18Z">
+        <test-method status="PASS" signature="driverSetup()[pri:0, instance:com.Bookmyshow.Pages.FIndSports@7f1302d6]" name="driverSetup" is-config="true" duration-ms="6724" started-at="2022-01-05T14:58:17Z" finished-at="2022-01-05T14:58:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method status="PASS" signature="openUrl()[pri:1, instance:com.Bookmyshow.Pages.FIndSports@7f1302d6]" name="openUrl" duration-ms="3104" started-at="2022-01-05T09:25:19Z" finished-at="2022-01-05T09:25:22Z">
+        <test-method status="PASS" signature="openUrl()[pri:1, instance:com.Bookmyshow.Pages.FIndSports@7f1302d6]" name="openUrl" duration-ms="3079" started-at="2022-01-05T14:58:24Z" finished-at="2022-01-05T14:58:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method status="PASS" signature="sports()[pri:2, instance:com.Bookmyshow.Pages.FIndSports@7f1302d6]" name="sports" duration-ms="10483" started-at="2022-01-05T09:25:25Z" finished-at="2022-01-05T09:25:35Z">
+        <test-method status="PASS" signature="sports()[pri:2, instance:com.Bookmyshow.Pages.FIndSports@7f1302d6]" name="sports" duration-ms="10561" started-at="2022-01-05T14:58:30Z" finished-at="2022-01-05T14:58:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sports -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Bookmyshow.Pages.FIndSports@7f1302d6]" name="closeBrowser" is-config="true" duration-ms="3388" started-at="2022-01-05T09:25:49Z" finished-at="2022-01-05T09:25:52Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Bookmyshow.Pages.FIndSports@7f1302d6]" name="closeBrowser" is-config="true" duration-ms="3285" started-at="2022-01-05T14:58:57Z" finished-at="2022-01-05T14:59:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.Bookmyshow.Pages.FIndSports -->
       <class name="com.Bookmyshow.Pages.MovieLanguages">
-        <test-method status="PASS" signature="openUrl()[pri:1, instance:com.Bookmyshow.Pages.MovieLanguages@43ee72e6]" name="openUrl" duration-ms="1586" started-at="2022-01-05T09:25:22Z" finished-at="2022-01-05T09:25:23Z">
+        <test-method status="PASS" signature="openUrl()[pri:1, instance:com.Bookmyshow.Pages.MovieLanguages@43ee72e6]" name="openUrl" duration-ms="1653" started-at="2022-01-05T14:58:27Z" finished-at="2022-01-05T14:58:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method status="PASS" signature="movie()[pri:3, instance:com.Bookmyshow.Pages.MovieLanguages@43ee72e6]" name="movie" duration-ms="4668" started-at="2022-01-05T09:25:35Z" finished-at="2022-01-05T09:25:40Z">
+        <test-method status="PASS" signature="movie()[pri:3, instance:com.Bookmyshow.Pages.MovieLanguages@43ee72e6]" name="movie" duration-ms="4767" started-at="2022-01-05T14:58:41Z" finished-at="2022-01-05T14:58:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- movie -->
       </class> <!-- com.Bookmyshow.Pages.MovieLanguages -->
-    </test> <!-- FunctionalTesting -->
+    </test> <!-- RegressionTesting -->
   </suite> <!-- Display all Sports activities available in your city -->
 </testng-results>
