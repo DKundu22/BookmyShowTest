@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Display all Sports activities available in your city">
+	<test name="SmokeTesting">
+		<classes>
+			<class name="com.Bookmyshow.Pages.FIndSports" />
+		</classes>
+	</test>
+</suite>
